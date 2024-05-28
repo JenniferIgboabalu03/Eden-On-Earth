@@ -57,7 +57,7 @@ export const Faqs = () => {
                         <h1 className='text-2xl md:text-3xl'>Explore our curated collection of exotic plants</h1>
                         <p className='text-base mt-3'>The allure of exotic plants with their vibrant colors & captivating foliage. From tropical wonders to rare specimens.</p>
                         </div>
-                        <Link to="/contact">
+                        <Link to="/contact" target="_top">
                             <div className='w-fit absolute bg-[#e1e1e166] bottom-0 cursor-pointer px-7 py-3 rounded-lg text-white text-xs flex space-x-1 items-center'>
                             <p>Contact us</p>
                             <div className='text-white w-fit rounded-full bg-[#e1e1e166]'><IoIosArrowForward size={14} /></div>

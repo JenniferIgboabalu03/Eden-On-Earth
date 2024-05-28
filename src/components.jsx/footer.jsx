@@ -60,23 +60,23 @@ export const Footer = () => {
               <div className='w-fit h-full'>
                 <h1 className='font-semibold text-white text-base mb-3'>Pages</h1>
                 <ul className='text-sm font-semibold'>
-                  <Link to="/about"><li className='py-1'><p>About us</p></li></Link>
-                  <Link to="/categories"><li className='py-1'><p>Categories</p></li></Link>
-                  <Link to="/shop"><li className='py-1'><p>Shop</p></li></Link>
-                  <Link to="/reviews"><li className='py-1'><p>Reviews</p></li></Link>
-                  <Link to="/faqs"><li className='py-1'><p>FQA</p></li></Link>
-                  <Link to="/contact"><li><p>Contact us</p></li></Link>
+                  <Link to="/about" target="_top"><li className='py-1'><p>About us</p></li></Link>
+                  <Link to="/categories" target="_top"><li className='py-1'><p>Categories</p></li></Link>
+                  <Link to="/shop" target="_top"><li className='py-1'><p>Shop</p></li></Link>
+                  <Link to="/reviews" target="_top"><li className='py-1'><p>Reviews</p></li></Link>
+                  <Link to="/faqs" target="_top"><li className='py-1'><p>FQA</p></li></Link>
+                  <Link to="/contact" target="_top"><li><p>Contact us</p></li></Link>
                 </ul>
               </div>
 
               <div className='w-fit h-full'>
                 <h1 className='font-semibold text-white text-base mb-3'>Categories</h1>
                 <ul className='text-sm font-semibold'>
-                  <Link to="/purifying plants"><li className='py-1'><p>Air Purifying Plants</p></li></Link>
-                  <Link to="/flowering plants"><li className='py-1'><p>Flowering Plants</p></li></Link>
-                  <Link to="/tropical plants"><li className='py-1'><p>Tropical Plants</p></li></Link>
-                  <Link to="/outdoor plants"><li className='py-1'><p>Outdoor Plants</p></li></Link>
-                  <Link to="/indoor plants"><li className='py-1'><p>Indoor Plants</p></li></Link>
+                  <Link to="/purifying plants" target="_top"><li className='py-1'><p>Air Purifying Plants</p></li></Link>
+                  <Link to="/flowering plants" target="_top"><li className='py-1'><p>Flowering Plants</p></li></Link>
+                  <Link to="/tropical plants" target="_top"><li className='py-1'><p>Tropical Plants</p></li></Link>
+                  <Link to="/outdoor plants" target="_top"><li className='py-1'><p>Outdoor Plants</p></li></Link>
+                  <Link to="/indoor plants" target="_top"><li className='py-1'><p>Indoor Plants</p></li></Link>
                 </ul>
               </div>
 

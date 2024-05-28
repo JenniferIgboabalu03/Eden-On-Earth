@@ -14,7 +14,7 @@ export const Categories = () => {
                 <div className="w-full h-full grid sm:grid-cols-2 md:grid-cols-3 gap-6 lg:gap-8">
                     { categories.map((data, index) => { 
                         return(
-                            <Link to={ data.link }>
+                            <Link to={ data.link } target="_top">
                                 <div className="w-full h-80 md:h-[350px] hover:scale-90 transition-all cursor-pointer lg:h-[480px] p-7 md:p-8 lg:p-10 rounded-xl split-background" key={index}>
                                     <div className="w-[75%] h-48 md:h-52 lg:w-[65%] lg:h-80 mx-auto">
                                         <img src={ data.img } alt="image" className="h-full w-full object-contain" />

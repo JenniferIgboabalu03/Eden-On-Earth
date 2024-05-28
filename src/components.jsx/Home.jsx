@@ -23,7 +23,7 @@ export const Home = () => {
             </div>
             <div className='h-full w-[60%] flex flex-col justify-center'>
               <p className='text-base text-[#535a5f]'>What started as a small seed of an idea has blossomed into a thriving online oasis where plant enthusiasts & nature lovers alike can find inspiration, guidance.</p>
-              <Link to="/shop">
+              <Link to="/shop" target="_top">
                 <div className='mt-11 w-fit bg-black px-7 py-3 rounded-lg cursor-pointer flex space-x-1 items-center'> 
                   <p className='text-white text-sm'>Shop Now</p>
                   <div className='text-black w-fit rounded-full bg-white'><IoIosArrowForward size={14} /></div>         
@@ -55,7 +55,7 @@ export const Home = () => {
 
           <div className='h-fit w-full mb-10 sm:mb-0'>
             <p className='text-base text-[#535a5f] my-7'>What started as a small seed of an idea has blossomed into a thriving online oasis where plant enthusiasts & nature lovers alike can find inspiration, guidance.</p>
-            <Link to="/shop">
+            <Link to="/shop" target="_top">
               <div className='w-fit bg-black px-7 py-3 rounded-lg flex items-center space-x-1'> 
                 <p className='text-white text-sm'>Shop Now</p> 
                 <div className='text-black w-fit rounded-full bg-white'><IoIosArrowForward size={14} /></div>                
@@ -96,7 +96,7 @@ export const Home = () => {
         <div className="w-full mt-9 h-full px-6 grid sm:grid-cols-2 md:grid-cols-3 gap-6 lg:gap-8">
           { categorie.map((data, index) => { 
               return(
-                  <Link to={ data.link }>
+                  <Link to={ data.link } target="_top">
                       <div className="w-full h-80 hover:scale-90 transition-all md:h-[350px] cursor-pointer lg:h-[480px] p-7 md:p-8 lg:p-10 rounded-xl split-background" key={index}>
                           <div className="w-[75%] h-48 md:h-52 lg:w-[65%] lg:h-80 mx-auto">
                               <img src={ data.img } alt="image" className="h-full w-full object-contain" />
@@ -119,7 +119,7 @@ export const Home = () => {
                 <h1 className='text-2xl sm:text-3xl lg:text-4xl'>Fiddle leaf fig plant</h1>
                 <div className='py-3 px-4 md:py-3 md:px-5 w-fit rounded-full my-7 lg:my-9 text-sm sm:text-base bg-[#e1e1e166]'><p>Starting From<span className='font-semibold ml-1'>$28.40</span></p></div>
               </div>
-              <Link to="/shop"><div className='w-fit h-fit bottom-0 absolute flex space-x-2 border-b border-b-white'><p className='text-xs'>Shop Now</p> <div><MdOutlineArrowOutward size={17} /></div> </div></Link>
+              <Link to="/shop" target="_top"><div className='w-fit h-fit bottom-0 absolute flex space-x-2 border-b border-b-white'><p className='text-xs'>Shop Now</p> <div><MdOutlineArrowOutward size={17} /></div> </div></Link>
             </div>
           </div>
 
@@ -197,7 +197,7 @@ export const Home = () => {
               <h1 className='text-2xl md:text-3xl'>Explore our curated collection of exotic plants</h1>
               <p className='text-base mt-3'>The allure of exotic plants with their vibrant colors & captivating foliage. From tropical wonders to rare specimens.</p>
             </div>
-            <Link to="/contact">
+            <Link to="/contact" target="_top">
               <div className='w-fit absolute bg-[#e1e1e166] bottom-0 cursor-pointer px-7 py-3 rounded-lg text-white text-xs flex space-x-1 items-center'>
                 <p>Contact us</p>
                 <div className='text-white w-fit rounded-full bg-[#e1e1e166]'><IoIosArrowForward size={14} /></div>

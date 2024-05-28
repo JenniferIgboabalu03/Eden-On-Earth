@@ -134,7 +134,7 @@ export const About =() => {
                                     </div>
                                 </div>
 
-                                <Link to="/contact" className="cursor-pointer">
+                                <Link to="/contact" target="_top" className="cursor-pointer">
                                     <div className="flex items-center space-x-2 text-[#333]">
                                         <p className="text-xs">Contact us</p>
                                         <div><MdOutlineArrowOutward size={17} /></div>
@@ -177,7 +177,7 @@ export const About =() => {
                                     </div>
                                 </div>
 
-                                <Link to="/categories">
+                                <Link to="/categories" target="_top">
                                     <div className='w-fit cursor-pointer border border-black px-6 sm:px-7 py-3 rounded-lg text-xs text-[#333] flex items-center space-x-2'>
                                         <p>Explore Plants</p>
                                         <div className='text-white w-fit rounded-full bg-black'><IoIosArrowForward size={14} /></div>
