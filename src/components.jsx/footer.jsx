@@ -123,8 +123,8 @@ export const Footer = () => {
           </div>
 
           <div className='w-full h-full border-t border-[#80868b] text-center sm:justify-between sm:items-center sm:flex py-4 sm:py-5'>
-            <p className='text-sm'><sup>&copy;</sup> 2024 Eden on earth.</p>
-            <p className='text-xs'>Built by Jennifer Igboabalu.</p>
+            <p className='text-sm'><sup>&copy;</sup> 2025 Eden on earth.</p>
+            <p className='text-xs'>Built by Ogechukwu Jennifer Igboabalu.</p>
           </div>
         </div> 
       </div>
